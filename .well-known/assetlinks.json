@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.irtiqa.muallim",
+      "sha256_cert_fingerprints": [
+        "\u0636\u0639_\u0647\u0646\u0627_\u0628\u0635\u0645\u0629_SHA256_\u0645\u0646_PWABuilder"
+      ]
+    }
+  }
+]
