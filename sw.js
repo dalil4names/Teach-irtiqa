@@ -1,4 +1,4 @@
-const V='muallim-v5';
+const V='muallim-v6';
 const SHELL=['./','index.html','jszip.min.js','manifest.webmanifest','favicon.png','icon-192.png','icon-512.png','icon-180.png'];
 /* لا تحديث تلقائي: النسخة الجديدة تنتظر حتى يضغط المعلم زر التحديث */
 self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>c.addAll(SHELL.map(u=>new Request(u,{cache:'reload'})))))});
